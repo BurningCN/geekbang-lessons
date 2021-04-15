@@ -24,6 +24,9 @@ import java.lang.annotation.*;
  * 激活 "HelloWorld" 模块注解
  *
  * @author <a href="mailto:mercyblitz@gmail.com">Mercy</a>
+ * @see HelloWorldConfiguration
+ * @see HelloWorldImportSelector
+ * @see HelloWorldImportBeanDefinitionRegistrar
  * @since
  */
 @Target({ElementType.TYPE})
